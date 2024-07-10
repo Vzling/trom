@@ -1,0 +1,7 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "trom:item/purple_crystal_sword"
+
+  }
+}

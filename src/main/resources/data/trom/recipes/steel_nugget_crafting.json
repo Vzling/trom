@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "trom:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "trom:steel_nugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "trom:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "trom:steel_pipe",
+    "count": 4
+  }
+}

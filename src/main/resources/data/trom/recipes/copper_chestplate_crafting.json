@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "b b",
+    "cac",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "trom:copper_gear"
+    },
+    "b": {
+      "item": "minecraft:leather"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    },
+    "d": {
+      "item": "minecraft:copper_block"
+    }
+  },
+  "result": {
+    "item": "trom:copper_chestplate",
+    "count": 1
+  }
+}

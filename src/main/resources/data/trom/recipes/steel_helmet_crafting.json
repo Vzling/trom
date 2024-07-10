@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "trom:steel_ingot"
+    },
+    "b": {
+      "item": "trom:steel_plate"
+    }
+  },
+  "result": {
+    "item": "trom:steel_helmet",
+    "count": 1
+  }
+}

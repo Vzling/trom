@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "trom:rose_gold_nugget"
+    }
+  },
+  "result": {
+    "item": "trom:rose_gold_ingot",
+    "count": 1
+  }
+}
