@@ -1,13 +1,13 @@
 modLoader="javafml"
-loaderVersioln="${loader_version_range}"
-license="All Rights Reserved"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
 
 [[mods]]
-modId="trom"
-version="1.0.0"
-displayName="The Rise Of Minerals"
-authors="shuixingshow, Jin13583"
-description='''This mod add some minerals,weapons,armors and bosses'''
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="${mod_authors}"
+description='''${mod_description}'''
 
 [[dependencies.trom]]
     modId="forge"
