@@ -1,5 +1,6 @@
 package show.trom.mod.init;
 
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraftforge.common.ForgeSpawnEggItem;
@@ -39,6 +40,12 @@ public class TromItem {
     public static final RegistryObject<Item> STEEL_DUST = ITEMS.register("steel_dust", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ROSE_GOLD_DUST = ITEMS.register("rose_gold_dust", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> KING_OF_THE_CRYSTAL_SPAWN_EGG = ITEMS.register("king_of_the_crystal_spawn_egg", () -> new ForgeSpawnEggItem(TromEntities.KING_OF_THE_CRYSTAL, -13421773, -10092442, new Item.Properties()));
-
+    public static final RegistryObject<Item> STEEL_SWORD = ITEMS.register("steel_sword", SteelSword::new);
+    public static final RegistryObject<Item> STEEL_PICKAXE = ITEMS.register("steel_pickaxe", SteelPickaxe::new);
+    public static final RegistryObject<Item> STEEL_AXE = ITEMS.register("steel_axe", SteelAxe::new);
+    public static final RegistryObject<Item> STEEL_SHOVEL = ITEMS.register("steel_shovel", SteelShovel::new);
+    public static final RegistryObject<Item> STEEL_HOE = ITEMS.register("steel_hoe", SteelHoe::new);
+    public static final RegistryObject<Item> ROCK_CHEESE = ITEMS.register("rock_cheese", () -> new Item(new Item.Properties().food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.6f).alwaysEat().build())));
+    public static final RegistryObject<Item> MINERAL_CHEESE = ITEMS.register("mineral_cheese", () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(12).saturationMod(1.5f).alwaysEat().build())));
 
 }

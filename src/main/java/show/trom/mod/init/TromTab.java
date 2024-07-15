@@ -28,8 +28,14 @@ public class TromTab {
                 output.accept(TromItem.STEEL_INGOT.get());
                 output.accept(TromItem.STEEL_NUGGET.get());
                 output.accept(TromItem.STEEL_DUST.get());
+                output.accept(TromItem.ROCK_CHEESE.get());
                 output.accept(TromItem.PURPLE_CRYSTAL_SWORD.get());
                 output.accept(TromItem.PURPLE_CRYSTAL_HAMMER.get());
+                output.accept(TromItem.STEEL_SWORD.get());
+                output.accept(TromItem.STEEL_PICKAXE.get());
+                output.accept(TromItem.STEEL_AXE.get());
+                output.accept(TromItem.STEEL_SHOVEL.get());
+                output.accept(TromItem.STEEL_HOE.get());
                 output.accept(TromItem.COPPER_HELMET.get());
                 output.accept(TromItem.COPPER_CHESTPLATE.get());
                 output.accept(TromItem.COPPER_LEGGINGS.get());
