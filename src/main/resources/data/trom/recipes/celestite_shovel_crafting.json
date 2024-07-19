@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "b",
+    "c",
+    "c"
+  ],
+  "key": {
+    "b": {
+      "item": "trom:celestite_crystal"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "trom:celestite_shovel",
+    "count": 1
+  }
+}

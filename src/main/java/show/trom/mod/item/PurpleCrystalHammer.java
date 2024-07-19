@@ -1,6 +1,5 @@
 package show.trom.mod.item;
 
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -14,7 +13,7 @@ public class PurpleCrystalHammer extends PickaxeItem {
             }
 
             public float getSpeed() {
-                return 9f;
+                return 10f;
             }
 
             public float getAttackDamageBonus() {
@@ -30,7 +29,7 @@ public class PurpleCrystalHammer extends PickaxeItem {
             }
 
             public Ingredient getRepairIngredient() {
-                return Ingredient.of(new ItemStack(TromItem.PURPLE_CRYSTAL_SHARD.get()));
+                return Ingredient.of(TromItem.PURPLE_CRYSTAL_SHARD.get());
             }
         }, 1, -3.2f, new Properties());
     }

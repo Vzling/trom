@@ -24,7 +24,7 @@ public abstract class CopperArmor extends ArmorItem {
             }
 
             public int getEnchantmentValue() {
-                return 17;
+                return 15;
             }
 
             public SoundEvent getEquipSound() {
@@ -51,7 +51,7 @@ public abstract class CopperArmor extends ArmorItem {
 
     public static class Helmet extends CopperArmor {
         public Helmet() {
-            super(Type.HELMET, new Properties().fireResistant());
+            super(Type.HELMET, new Properties());
         }
 
         @Override
@@ -62,7 +62,7 @@ public abstract class CopperArmor extends ArmorItem {
 
     public static class Chestplate extends CopperArmor {
         public Chestplate() {
-            super(Type.CHESTPLATE, new Properties().fireResistant());
+            super(Type.CHESTPLATE, new Properties());
         }
 
         @Override
@@ -73,7 +73,7 @@ public abstract class CopperArmor extends ArmorItem {
 
     public static class Leggings extends CopperArmor {
         public Leggings() {
-            super(Type.LEGGINGS, new Properties().fireResistant());
+            super(Type.LEGGINGS, new Properties());
         }
 
         @Override
@@ -84,7 +84,7 @@ public abstract class CopperArmor extends ArmorItem {
 
     public static class Boots extends CopperArmor {
         public Boots() {
-            super(Type.BOOTS, new Properties().fireResistant());
+            super(Type.BOOTS, new Properties());
         }
 
         @Override

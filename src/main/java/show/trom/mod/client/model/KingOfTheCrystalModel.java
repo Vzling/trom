@@ -71,6 +71,7 @@ public class KingOfTheCrystalModel<T extends KingOfTheCrystal> extends Hierarchi
     public void setupAnim(KingOfTheCrystal entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
         this.root().getAllParts().forEach(ModelPart::resetPose);
         this.animate(entity.idleAnimationState, KingOfTheCrystalAnimation.idle, ageInTicks);
+        this.animate(entity.meleeAnimationState, KingOfTheCrystalAnimation.attack, ageInTicks);
         this.animateWalk(KingOfTheCrystalAnimation.walk, limbSwing, limbSwingAmount, 1.0f, 1.0f);
     }
 

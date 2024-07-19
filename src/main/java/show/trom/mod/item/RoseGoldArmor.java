@@ -33,7 +33,7 @@ public abstract class RoseGoldArmor extends ArmorItem {
             }
 
             public Ingredient getRepairIngredient() {
-                return Ingredient.of(new ItemStack(TromItem.ROSE_GOLD_INGOT.get()));
+                return Ingredient.of(TromItem.ROSE_GOLD_INGOT.get());
             }
 
             public String getName() {
@@ -52,7 +52,7 @@ public abstract class RoseGoldArmor extends ArmorItem {
 
     public static class Helmet extends RoseGoldArmor {
         public Helmet() {
-            super(Type.HELMET, new Properties().fireResistant());
+            super(Type.HELMET, new Properties());
         }
 
         @Override
@@ -68,7 +68,7 @@ public abstract class RoseGoldArmor extends ArmorItem {
 
     public static class Chestplate extends RoseGoldArmor {
         public Chestplate() {
-            super(Type.CHESTPLATE, new Properties().fireResistant());
+            super(Type.CHESTPLATE, new Properties());
         }
 
         @Override
@@ -84,7 +84,7 @@ public abstract class RoseGoldArmor extends ArmorItem {
 
     public static class Leggings extends RoseGoldArmor {
         public Leggings() {
-            super(Type.LEGGINGS, new Properties().fireResistant());
+            super(Type.LEGGINGS, new Properties());
         }
 
         @Override
@@ -100,7 +100,7 @@ public abstract class RoseGoldArmor extends ArmorItem {
 
     public static class Boots extends RoseGoldArmor {
         public Boots() {
-            super(Type.BOOTS, new Properties().fireResistant());
+            super(Type.BOOTS, new Properties());
         }
 
         @Override

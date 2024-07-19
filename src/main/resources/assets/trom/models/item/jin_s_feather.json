@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "trom:item/jin_s_feather"
+
+  }
+}

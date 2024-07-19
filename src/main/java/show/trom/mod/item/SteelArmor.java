@@ -32,7 +32,7 @@ public abstract class SteelArmor extends ArmorItem {
             }
 
             public Ingredient getRepairIngredient() {
-                return Ingredient.of(new ItemStack(TromItem.STEEL_INGOT.get()));
+                return Ingredient.of(TromItem.STEEL_INGOT.get());
             }
 
             public String getName() {
@@ -51,7 +51,7 @@ public abstract class SteelArmor extends ArmorItem {
 
     public static class Helmet extends SteelArmor {
         public Helmet() {
-            super(Type.HELMET, new Properties().fireResistant());
+            super(Type.HELMET, new Properties());
         }
 
         @Override
@@ -62,7 +62,7 @@ public abstract class SteelArmor extends ArmorItem {
 
     public static class Chestplate extends SteelArmor {
         public Chestplate() {
-            super(Type.CHESTPLATE, new Properties().fireResistant());
+            super(Type.CHESTPLATE, new Properties());
         }
 
         @Override
@@ -73,7 +73,7 @@ public abstract class SteelArmor extends ArmorItem {
 
     public static class Leggings extends SteelArmor {
         public Leggings() {
-            super(Type.LEGGINGS, new Properties().fireResistant());
+            super(Type.LEGGINGS, new Properties());
         }
 
         @Override
@@ -84,7 +84,7 @@ public abstract class SteelArmor extends ArmorItem {
 
     public static class Boots extends SteelArmor {
         public Boots() {
-            super(Type.BOOTS, new Properties().fireResistant());
+            super(Type.BOOTS, new Properties());
         }
 
         @Override

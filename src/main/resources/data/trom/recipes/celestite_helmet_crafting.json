@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+     "a": {
+      "item": "trom:celestite_crystal"
+    }
+  },
+  "result": {
+    "item": "trom:celestite_helmet",
+    "count": 1
+  }
+}

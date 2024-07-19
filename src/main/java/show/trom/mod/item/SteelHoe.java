@@ -1,6 +1,5 @@
 package show.trom.mod.item;
 
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -30,7 +29,7 @@ public class SteelHoe extends HoeItem {
             }
 
             public Ingredient getRepairIngredient() {
-                return Ingredient.of(new ItemStack(TromItem.STEEL_INGOT.get()));
+                return Ingredient.of(TromItem.STEEL_INGOT.get());
             }
         }, 1, -2.2f, new Properties());
     }

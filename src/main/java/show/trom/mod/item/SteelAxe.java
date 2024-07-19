@@ -1,6 +1,5 @@
 package show.trom.mod.item;
 
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -30,7 +29,7 @@ public class SteelAxe extends AxeItem {
             }
 
             public Ingredient getRepairIngredient() {
-                return Ingredient.of(new ItemStack(TromItem.STEEL_INGOT.get()));
+                return Ingredient.of(TromItem.STEEL_INGOT.get());
             }
         }, 1, -3.1f, new Properties());
     }

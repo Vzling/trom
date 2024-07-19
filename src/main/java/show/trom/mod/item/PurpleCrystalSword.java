@@ -1,7 +1,6 @@
 package show.trom.mod.item;
 
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -15,11 +14,11 @@ public class PurpleCrystalSword extends SwordItem {
             }
 
             public float getSpeed() {
-                return 9f;
+                return 10f;
             }
 
             public float getAttackDamageBonus() {
-                return 6f;
+                return 7f;
             }
 
             public int getLevel() {
@@ -31,7 +30,7 @@ public class PurpleCrystalSword extends SwordItem {
             }
 
             public Ingredient getRepairIngredient() {
-                return Ingredient.of(new ItemStack(TromItem.PURPLE_CRYSTAL_SHARD.get()));
+                return Ingredient.of(TromItem.PURPLE_CRYSTAL_SHARD.get());
             }
         }, 1, -2.3f, new Item.Properties());
     }
